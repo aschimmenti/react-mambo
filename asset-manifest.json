@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react-mambo/static/css/main.496a10f8.css",
+    "main.js": "/react-mambo/static/js/main.18077d68.js",
+    "static/js/453.99177047.chunk.js": "/react-mambo/static/js/453.99177047.chunk.js",
+    "index.html": "/react-mambo/index.html",
+    "main.496a10f8.css.map": "/react-mambo/static/css/main.496a10f8.css.map",
+    "main.18077d68.js.map": "/react-mambo/static/js/main.18077d68.js.map",
+    "453.99177047.chunk.js.map": "/react-mambo/static/js/453.99177047.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.496a10f8.css",
+    "static/js/main.18077d68.js"
+  ]
+}
