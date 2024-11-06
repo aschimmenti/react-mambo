@@ -1,0 +1,29 @@
+.entityLink {
+    transition: all 0.2s ease-in-out;
+    border-bottom: 1px solid transparent;
+  }
+  
+  .entityLink:hover {
+    border-bottom-color: currentColor;
+    background-color: rgba(37, 99, 235, 0.1);
+  }
+  
+  .storyContent {
+    font-feature-settings: "kern" 1, "liga" 1, "calt" 1, "pnum" 1, "tnum" 0, "onum" 1, "lnum" 0, "dlig" 0;
+    font-size: 1.25rem;
+    line-height: 1.8;
+    color: #4B5563;
+    font-family: Georgia, serif;
+  }
+  
+  .storyTitle {
+    color: #111827;
+    margin-bottom: 2rem;
+  }
+  
+  .storyContainer {
+    background: white;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+  }

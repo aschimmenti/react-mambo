@@ -1,0 +1,66 @@
+{
+  "stories": [
+    {
+      "storyId": "Q1890705",
+      "title": "1968 Olympics Black Power salute",
+      "content": {
+        "mainText": "On October 16, 1968, at the Olympic Games in Mexico City, two African American athletes made history not just for their athletic achievement, but for a silent protest that became an iconic symbol of the civil rights movement. Tommie Smith, who had just won the gold medal in the 200-meter sprint with a world record time, and John Carlos, who won bronze, raised their black-gloved fists during the playing of \"The Star-Spangled Banner\" at the medal ceremony.\n\nThe protest took place in Mexico, specifically at the Olympic Stadium in Mexico City. Smith and Carlos deliberately used the Olympic platform to protest racial discrimination in the United States. They were joined in solidarity by silver medalist Peter Norman from Australia, who wore an Olympic Project for Human Rights badge to show his support.\n\nThe gesture came at a time of intense social upheaval in the United States, and its impact was immediate and lasting. Both Smith and Carlos were expelled from the Olympic Village and faced intense criticism upon their return to the United States. However, their protest has endured as a defining moment in both Olympic and civil rights history."
+      },
+      "entities": {
+        "Q52656": {
+          "label": "Tommie Smith",
+          "type": "person",
+          "aliases": ["Smith", "Tommie", "Tommie C. Smith"]
+        },
+        "Q370729": {
+          "label": "John Carlos",
+          "type": "person",
+          "aliases": ["Carlos", "John Wesley Carlos"]
+        },
+        "Q356798": {
+          "label": "Peter Norman",
+          "type": "person",
+          "aliases": ["Norman"],
+          "biography": [{
+            "img" : "url-to-img",
+            "biography" : ""
+          }]
+        },
+        "Q96": {
+          "label": "Mexico",
+          "type": "country",
+          "aliases": ["Mexican"]
+        },
+        "Q1129": {
+          "label": "Mexico City",
+          "type": "city",
+          "aliases": ["Ciudad de México"]
+        },
+        "Q30": {
+          "label": "United States of America",
+          "type": "country",
+          "aliases": ["United States", "USA", "US", "America"]
+        }
+      }
+    },
+    {
+      "storyId": "Q2875704",
+      "title": "First Moon Landing",
+      "content": {
+        "mainText": "On July 20, 1969, NASA's Apollo 11 mission achieved the first crewed lunar landing. Neil Armstrong and Buzz Aldrin became the first humans to walk on the Moon, while Michael Collins orbited above in the Command Module..."
+      },
+      "entities": {
+        "Q1615": {
+          "label": "Neil Armstrong",
+          "type": "person",
+          "aliases": ["Armstrong"]
+        },
+        "Q2248": {
+          "label": "Buzz Aldrin",
+          "type": "person",
+          "aliases": ["Aldrin"]
+        }
+      }
+    }
+  ]
+}
