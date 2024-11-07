@@ -10,57 +10,128 @@
         "Q52656": {
           "label": "Tommie Smith",
           "type": "person",
-          "aliases": ["Smith", "Tommie", "Tommie C. Smith"]
+          "aliases": [
+            "Smith",
+            "Tommie",
+            "Tommie C. Smith"
+          ],
+          "details": {
+            "age": "24",
+            "location": "Lemoore, California",
+            "education": "San Jose State University",
+            "height": "6 feet 3 inches"
+          }
         },
         "Q370729": {
           "label": "John Carlos",
           "type": "person",
-          "aliases": ["Carlos", "John Wesley Carlos"]
+          "aliases": [
+            "Carlos",
+            "John Wesley Carlos"
+          ],
+          "details": {
+            "age": "23",
+            "birthplace": "New York",
+            "residence": "San Jose",
+            "education": "San Jose State University",
+            "height": "6 feet 4 inches"
+          }
         },
         "Q356798": {
           "label": "Peter Norman",
           "type": "person",
-          "aliases": ["Norman"],
-          "biography": [{
-            "img" : "url-to-img",
-            "biography" : ""
-          }]
+          "aliases": [
+            "Norman"
+          ],
+          "biography": [
+            {
+              "img": "url-to-img",
+              "biography": ""
+            }
+          ]
         },
         "Q96": {
           "label": "Mexico",
           "type": "country",
-          "aliases": ["Mexican"]
+          "aliases": [
+            "Mexican"
+          ]
         },
-        "Q1129": {
+        "Q1489": {
           "label": "Mexico City",
           "type": "city",
-          "aliases": ["Ciudad de México"]
+          "aliases": [
+            "Ciudad de México"
+          ]
         },
         "Q30": {
           "label": "United States of America",
           "type": "country",
-          "aliases": ["United States", "USA", "US", "America"]
-        }
-      }
-    },
-    {
-      "storyId": "Q2875704",
-      "title": "First Moon Landing",
-      "content": {
-        "mainText": "On July 20, 1969, NASA's Apollo 11 mission achieved the first crewed lunar landing. Neil Armstrong and Buzz Aldrin became the first humans to walk on the Moon, while Michael Collins orbited above in the Command Module..."
-      },
-      "entities": {
-        "Q1615": {
-          "label": "Neil Armstrong",
-          "type": "person",
-          "aliases": ["Armstrong"]
+          "aliases": [
+            "United States",
+            "USA",
+            "US",
+            "America"
+          ]
         },
-        "Q2248": {
-          "label": "Buzz Aldrin",
+        "Q5668611": {
+          "label": "Harry Edwards",
           "type": "person",
-          "aliases": ["Aldrin"]
+          "aliases": [
+            "Harry Edwards", "Harry Thomas Edwards", "Harry T. Edwards"
+          ],
+          "details": {
+            "role": "American sociologist of sport",
+            "contribution": "initiated the black power manifestations in athletics"
+          }
+        },
+        "Q1418438": {
+          "label": "United States Olympic Committee",
+          "type": "organization",
+          "aliases": [
+            "USOC", "USOPC", "United States Olympic Committee", "United States Olympic and Paralympic Committee", "United States Olympic & Paralympic Committee"
+          ]
+        },
+        "Q40970": {
+          "label": "International Olympic Committee",
+          "type": "organization",
+          "aliases": [
+            "IOC",
+            "I.O.C."
+          ]
+        },
+        "Q1158": {
+          "label": "International Amateur Athletic Federation",
+          "type": "organization",
+          "aliases": [
+            "World Athletics", "IAAF", "International Amateur Athletics Federation", "International Association of Athletics Federations"
+          ]
+        },
+        "Q498526": {
+          "label": "San José State University",
+          "type": "organization",
+          "aliases": ["SJSU", "San Jose State College", "San Jose State University"]
         }
-      }
+      },
+      "news-articles": [
+        {
+          "title": "Olympics Outer",
+          "date": "16/10/1968",
+          "creator": {
+            "label": "Joseph M Sheehan"
+          },
+          "publisher": {
+            "label": "New York Times",
+            "wd": "Q9684"
+          },
+          "article": [
+            {
+              "format": "html",
+              "source": "<article>    <h1>U.S. Olympic Committee Suspends Athletes Over Black Power Demonstration</h1>      <p>MEXICO CITY [Friday] - The United States Olympic Committee suspended Tommie Smith and John Carlos today for having used last Wednesday's victory ceremony for the 200-meter dash at the Olympic Games as the vehicle for a black power demonstration.</p>      <p>The two Negro sprinters were told by Douglas F. Roby, the president of the committee, that they must leave the Olympic Village. Their credentials were also taken away, which made it mandatory for them to leave Mexico within 48 hours.</p>      <p>The decision to dismiss the athletes was made early this morning after the committee had been summoned into a conference by the executive committee of the International Olympic Committee. Members of the United States committee, who were divided on the question of whether action should be taken, emphasized that the dismissals were by edict of the international unit. The I.O.C. indicated, it was said, that it might bar the entire United States team from further participation if the athletes were not disciplined.</p>      <p>In a statement issued early this morning, the United States committee expressed its 'profound regrets' to the International Olympic Committee, the Mexican Organizing Committee and the people of Mexico for the 'discourtesy displayed' by Smith and Carlos.</p>      <blockquote>      <p>'The untypical exhibitionism of these athletes violates the basic standards of good manners and sportsmanship, which are so highly valued in the United States,' the statement said. 'Such immature behavior is an isolated incident' and 'a repetition of such incidents by other members of the United States team can only be considered a willful disregard of Olympic principles.'</p>    </blockquote>      <p>At Wednesday's 200-meter victory ceremony, Smith, the winner, and Carlos, who finished third, wore black scarves around their necks and black gloves (Smith on his right hand and Carlos on his left). After receiving their medals from the Marquis of Exeter, the president of the International Amateur Athletic Federation, Smith and Carlos raised their gloved hands with fists clenched and kept their heads deeply bowed during the playing of the national anthem and raising of the United States flag in their honor.</p>      <p>This demonstration produced a mixed reaction among United States officials and members of the United States squad, black and white. Some hailed it as a gesture of independence and a move in support of a worthy cause. Many others said they were offended and embarrassed. A few were vehemently indignant.</p>      <p>The 24-year-old Smith, a rangy, longlegged athlete who stands 6 feet 3 inches, is from Lemoore, Calif., and is a student at San Jose State University, where Harry Edwards, who initiated the black power manifestations in athletics, was a teacher last year. Carlos, 23, who is 6 feet 4 inches tall, was born and raised in New York, but now lives in San Jose and also attends San Jose State.</p>  </article>"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

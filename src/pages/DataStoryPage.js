@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import EntityInfoBox from '../components/EntityInfoBox';
 import storyKG from '../stories/StoryKG.json';
 import '../styles/DataStoryPage.css';
+import NewsArticleSection from '../components/NewsArticleSection';
+
 
 const DataStoryPage = () => {
   const [selectedEntity, setSelectedEntity] = useState(null);
@@ -94,7 +96,12 @@ const DataStoryPage = () => {
             color: '#2563EB',
             fontSize: 'inherit',
             fontWeight: 'inherit',
-            lineHeight: 'inherit'
+            lineHeight: 'inherit',
+            verticalAlign: 'baseline',
+            margin: 0,
+            padding: 0,
+            border: 'none',
+            background: 'none'
           }}
         >
           {replacement.text}
@@ -131,6 +138,15 @@ const DataStoryPage = () => {
               ))}
             </div>
           </div>
+          
+          {/* Add the NewsArticleSection component */}
+          {story['news-articles'] && (
+            <NewsArticleSection
+              articles={story['news-articles']}
+              entities={story.entities}
+              onEntityClick={setSelectedEntity}
+            />
+          )}
         </div>
         
         {/* Info card sidebar */}

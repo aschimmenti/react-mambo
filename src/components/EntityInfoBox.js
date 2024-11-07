@@ -15,6 +15,7 @@ const EntityInfoBox = ({ entityId, entityType }) => {
 
     loadEntityData();
   }, [entityId, entityType]);
+
   if (loading) {
     return (
       <div className="space-y-4 animate-pulse">
@@ -32,61 +33,82 @@ const EntityInfoBox = ({ entityId, entityType }) => {
     </div>
   );
 
+  // Generic content renderer that works with both base and specific type data
   const renderContent = () => {
-    switch (entityType) {
-      case 'person':
-        return (
-          <div className="space-y-4">
-            <h3 className="text-2xl font-light tracking-wide mb-2">{data?.label?.value}</h3>
-            {data?.occupationLabel?.value && (
-              <p className="text-olympic-blue italic">
-                {data.occupationLabel.value}
-              </p>
-            )}
-            <div className="space-y-2 mt-4">
-              <InfoRow 
-                label="Born"
-                value={data?.birthDate?.value && 
-                  `${new Date(data.birthDate.value).toLocaleDateString()}${
-                    data?.birthPlaceLabel?.value ? ` in ${data.birthPlaceLabel.value}` : ''
-                  }`
-                }
-              />
-              <InfoRow 
-                label="Nationality"
-                value={data?.nationalityLabel?.value}
-              />
-            </div>
-          </div>
-        );
+    if (!data) return null;
 
-      case 'place':
-      case 'country':
-        return (
-          <div className="space-y-4">
-            <h3 className="text-2xl font-light tracking-wide mb-2">{data?.label?.value}</h3>
-            <div className="space-y-2">
-              <InfoRow 
-                label="Country"
-                value={data?.countryLabel?.value}
-              />
-              <InfoRow 
-                label="Population"
-                value={data?.population?.value && 
-                  parseInt(data.population.value).toLocaleString()
-                }
-              />
-              <InfoRow 
-                label="Continent"
-                value={data?.continentLabel?.value}
-              />
-            </div>
-          </div>
-        );
+    return (
+      <div className="space-y-4">
+        <h3 className="text-2xl font-light tracking-wide mb-2">
+          {data.label?.value}
+        </h3>
+        
+        {data.description?.value && (
+          <p className="text-gray-600 italic">
+            {data.description.value}
+          </p>
+        )}
 
-      default:
-        return <p>Unknown entity type</p>;
-    }
+        {data.image?.value && (
+          <img 
+            src={data.image.value} 
+            alt={data.label?.value}
+            className="w-full h-48 object-cover rounded-lg mb-4"
+          />
+        )}
+
+        <div className="space-y-2 mt-4">
+          {/* Show type information if available */}
+          {data.typeLabel?.value && (
+            <InfoRow 
+              label="Type"
+              value={data.typeLabel.value}
+            />
+          )}
+
+          {/* Show Wikipedia link if available */}
+          {data.wikipediaUrl?.value && (
+            <InfoRow 
+              label="Wikipedia"
+              value={
+                <a 
+                  href={data.wikipediaUrl.value}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-olympic-blue hover:underline"
+                >
+                  Read more
+                </a>
+              }
+            />
+          )}
+
+          {/* Render any additional properties that might come from specific type queries */}
+          {Object.entries(data)
+            .filter(([key, value]) => 
+              // Filter out already handled properties and ensure value exists
+              !['label', 'description', 'image', 'typeLabel', 'wikipediaUrl'].includes(key) &&
+              key.endsWith('Label') && 
+              value?.value
+            )
+            .map(([key, value]) => {
+              const label = key
+                .replace('Label', '')
+                .replace(/([A-Z])/g, ' $1')
+                .toLowerCase()
+                .replace(/^./, str => str.toUpperCase());
+
+              return (
+                <InfoRow
+                  key={key}
+                  label={label}
+                  value={value.value}
+                />
+              );
+            })}
+        </div>
+      </div>
+    );
   };
 
   return (
