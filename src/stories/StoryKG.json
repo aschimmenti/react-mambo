@@ -78,7 +78,9 @@
           "label": "Harry Edwards",
           "type": "person",
           "aliases": [
-            "Harry Edwards", "Harry Thomas Edwards", "Harry T. Edwards"
+            "Harry Edwards",
+            "Harry Thomas Edwards",
+            "Harry T. Edwards"
           ],
           "details": {
             "role": "American sociologist of sport",
@@ -89,7 +91,11 @@
           "label": "United States Olympic Committee",
           "type": "organization",
           "aliases": [
-            "USOC", "USOPC", "United States Olympic Committee", "United States Olympic and Paralympic Committee", "United States Olympic & Paralympic Committee"
+            "USOC",
+            "USOPC",
+            "United States Olympic Committee",
+            "United States Olympic and Paralympic Committee",
+            "United States Olympic & Paralympic Committee"
           ]
         },
         "Q40970": {
@@ -104,13 +110,20 @@
           "label": "International Amateur Athletic Federation",
           "type": "organization",
           "aliases": [
-            "World Athletics", "IAAF", "International Amateur Athletics Federation", "International Association of Athletics Federations"
+            "World Athletics",
+            "IAAF",
+            "International Amateur Athletics Federation",
+            "International Association of Athletics Federations"
           ]
         },
         "Q498526": {
           "label": "San José State University",
           "type": "organization",
-          "aliases": ["SJSU", "San Jose State College", "San Jose State University"]
+          "aliases": [
+            "SJSU",
+            "San Jose State College",
+            "San Jose State University"
+          ]
         }
       },
       "news-articles": [
@@ -130,6 +143,78 @@
               "source": "<article>    <h1>U.S. Olympic Committee Suspends Athletes Over Black Power Demonstration</h1>      <p>MEXICO CITY [Friday] - The United States Olympic Committee suspended Tommie Smith and John Carlos today for having used last Wednesday's victory ceremony for the 200-meter dash at the Olympic Games as the vehicle for a black power demonstration.</p>      <p>The two Negro sprinters were told by Douglas F. Roby, the president of the committee, that they must leave the Olympic Village. Their credentials were also taken away, which made it mandatory for them to leave Mexico within 48 hours.</p>      <p>The decision to dismiss the athletes was made early this morning after the committee had been summoned into a conference by the executive committee of the International Olympic Committee. Members of the United States committee, who were divided on the question of whether action should be taken, emphasized that the dismissals were by edict of the international unit. The I.O.C. indicated, it was said, that it might bar the entire United States team from further participation if the athletes were not disciplined.</p>      <p>In a statement issued early this morning, the United States committee expressed its 'profound regrets' to the International Olympic Committee, the Mexican Organizing Committee and the people of Mexico for the 'discourtesy displayed' by Smith and Carlos.</p>      <blockquote>      <p>'The untypical exhibitionism of these athletes violates the basic standards of good manners and sportsmanship, which are so highly valued in the United States,' the statement said. 'Such immature behavior is an isolated incident' and 'a repetition of such incidents by other members of the United States team can only be considered a willful disregard of Olympic principles.'</p>    </blockquote>      <p>At Wednesday's 200-meter victory ceremony, Smith, the winner, and Carlos, who finished third, wore black scarves around their necks and black gloves (Smith on his right hand and Carlos on his left). After receiving their medals from the Marquis of Exeter, the president of the International Amateur Athletic Federation, Smith and Carlos raised their gloved hands with fists clenched and kept their heads deeply bowed during the playing of the national anthem and raising of the United States flag in their honor.</p>      <p>This demonstration produced a mixed reaction among United States officials and members of the United States squad, black and white. Some hailed it as a gesture of independence and a move in support of a worthy cause. Many others said they were offended and embarrassed. A few were vehemently indignant.</p>      <p>The 24-year-old Smith, a rangy, longlegged athlete who stands 6 feet 3 inches, is from Lemoore, Calif., and is a student at San Jose State University, where Harry Edwards, who initiated the black power manifestations in athletics, was a teacher last year. Carlos, 23, who is 6 feet 4 inches tall, was born and raised in New York, but now lives in San Jose and also attends San Jose State.</p>  </article>"
             }
           ]
+        }
+      ]
+    },
+    {
+      "storyId": "Q8752",
+      "title": "Gender Evolution in the Olympic Games",
+      "content": {
+        "mainText": "The Olympic Games have undergone a remarkable transformation in gender representation since their modern inception in 1896. At the first modern Olympics in Athens, women were completely excluded from competition, reflecting the social norms of the time. From these restrictive beginnings, where 0 female athletes competed alongside 125 male athletes, to the near gender parity achieved in recent Olympics, the journey spans over a century of progress and change.\n\nThe inclusion of women in the Olympics has been gradual but consistent. The 1900 Paris Olympics marked a pivotal moment as the first Games to include female athletes, though they numbered only 14 compared to 792 men. Women were initially limited to 'ladylike' sports such as tennis and golf. The International Olympic Committee, under the leadership of Pierre de Coubertin, was initially resistant to women's participation in many Olympic events.\n\nSignificant milestones in gender equality came in the late 20th century. The 1984 Los Angeles Olympics saw a dramatic increase in women's participation, with 1,200 female athletes competing. By the 2000 Sydney Olympics, women's participation had grown to over 3,000 athletes, representing nearly 40% of all competitors. The 2020 Tokyo Olympics marked a historic achievement with women making up close to 49% of all athletes.\n\nThis evolution reflects broader societal changes and persistent advocacy for gender equality in sports. The International Olympic Committee has played an increasingly active role in promoting women's participation, implementing quotas and adding new women's events to achieve greater gender balance."
+      },
+      "entities": {
+        "Q8752": {
+          "label": "Olympic Games",
+          "type": "sports_organization",
+          "aliases": [
+            "Olympics",
+            "Olympic games",
+            "The Olympics"
+          ]
+        },
+        "Q40970": {
+          "label": "International Olympic Committee",
+          "type": "organization",
+          "aliases": [
+            "IOC",
+            "I.O.C."
+          ]
+        },
+        "Q282679": {
+          "label": "Pierre de Coubertin",
+          "type": "person",
+          "aliases": [
+            "Baron de Coubertin"
+          ]
+        },
+        "Q8834": {
+          "label": "1900 Summer Olympics",
+          "type": "sports_organization",
+          "aliases": [
+            "1900 Olympics",
+            "Paris Olympics 1900"
+          ]
+        },
+        "Q8531": {
+          "label": "1984 Summer Olympics",
+          "type": "sports_organization",
+          "aliases": [
+            "1984 Olympics",
+            "Los Angeles Olympics 1984"
+          ]
+        },
+        "Q8538": {
+          "label": "2000 Summer Olympics",
+          "type": "sports_organization",
+          "aliases": [
+            "2000 Olympics",
+            "Sydney Olympics"
+          ]
+        },
+        "Q47716": {
+          "label": "2020 Summer Olympics",
+          "type": "sports_organization",
+          "aliases": [
+            "2020 Olympics",
+            "Tokyo Olympics"
+          ]
+        }
+      },
+      "visualizations": [
+        {
+          "type": "OlympicRaceChart",
+          "data": "ol_by_gender.csv",
+          "title": "Evolution of Gender Distribution in the Olympics (1896-2024)"
         }
       ]
     }

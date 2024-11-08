@@ -1,13 +1,17 @@
 import React, { useState } from 'react';
+import { useParams } from 'react-router-dom';
 import EntityInfoBox from '../components/EntityInfoBox';
+import NewsArticleSection from '../components/NewsArticleSection';
+import VisualizationWrapper from '../components/VisualizationWrapper';
 import storyKG from '../stories/StoryKG.json';
 import '../styles/DataStoryPage.css';
-import NewsArticleSection from '../components/NewsArticleSection';
-
 
 const DataStoryPage = () => {
+  const { id } = useParams();
   const [selectedEntity, setSelectedEntity] = useState(null);
-  const story = storyKG.stories[0];
+  
+  // Find the story based on URL parameter
+  const story = storyKG.stories.find(s => s.storyId === id) || storyKG.stories[0];
 
   const processTextToComponents = (text, entities) => {
     // Create a map of all possible entity mentions to their IDs
@@ -126,20 +130,22 @@ const DataStoryPage = () => {
   return (
     <div className="container mx-auto px-4 py-8">
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-8">
-        {/* Main content */}
         <div className="lg:col-span-8">
           <div className="bg-white p-8 border-l-4 border-olympic-blue">
             <h1 className="text-4xl md:text-5xl mb-8 font-light tracking-wide">
               {story.title}
             </h1>
             <div className="prose prose-lg max-w-none">
-              {processTextToComponents(story.content.mainText, story.entities).map((content, index) => (
-                <React.Fragment key={index}>{content}</React.Fragment>
-              ))}
+              {processTextToComponents(story.content.mainText, story.entities)}
             </div>
           </div>
           
-          {/* Add the NewsArticleSection component */}
+          {/* Add visualizations if they exist */}
+          {story.visualizations?.map((viz, index) => (
+            <VisualizationWrapper key={index} visualization={viz} />
+          ))}
+          
+          {/* News articles section */}
           {story['news-articles'] && (
             <NewsArticleSection
               articles={story['news-articles']}
