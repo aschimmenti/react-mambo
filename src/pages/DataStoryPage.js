@@ -7,6 +7,7 @@ import QuotesAndRelationships from '../components/QuotesAndRelationships';
 import storyKG from '../stories/StoryKG.json';
 import LinguisticAnalysisSlideshow from '../components/LinguisticAnalysisSlideshow';
 import relationshipsData from '../stories/relationships.json';
+import WordClouds from '../components/visualizations/WordClouds';
 import '../styles/DataStoryPage.css';
 
 const DataStoryPage = () => {
@@ -35,6 +36,7 @@ const DataStoryPage = () => {
   const showLinguisticAnalysis = story.storyId === "Q1890705"; // Black Power salute story
   const showQuotesAndRelationships = story.sentences && story.sentences.length > 0;
   const showNewsArticles = story['news-articles'] && story['news-articles'].length > 0;
+  const isRepresentationBiasStory = story.storyId === "Q8752";
 
 
   const processTextToComponents = (text, entities) => {
@@ -188,6 +190,8 @@ const DataStoryPage = () => {
             }
             return null;
           })}
+
+          {isRepresentationBiasStory && <WordClouds />}
 
           {/* Story-specific components */}
           {showQuotesAndRelationships && (

@@ -5,7 +5,7 @@ const QuotesAndRelationships = ({ relationships = [], quotes = [], onEntityClick
   // State for speaker data
   const [speakerData, setSpeakerData] = useState({});
   const [loading, setLoading] = useState(true);
-
+  console.log(loading)
   // Group relationships by subject, with null check
   const groupedRelationships = (relationships || []).reduce((acc, rel) => {
     if (!rel?.subject?.uri) return acc;
