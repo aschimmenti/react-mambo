@@ -190,7 +190,7 @@
         "mainText": "The Olympic Games have undergone a remarkable transformation in gender representation since their modern inception in 1896. At the first modern Olympics in Athens, women were completely excluded from competition, reflecting the social norms of the time. From these restrictive beginnings, where 0 female athletes competed alongside 125 male athletes, to the near gender parity achieved in recent Olympics, the journey spans over a century of progress and change.\n\nThe inclusion of women in the Olympics has been gradual but consistent. The 1900 Paris Olympics marked a pivotal moment as the first Games to include female athletes, though they numbered only 14 compared to 792 men. Women were initially limited to 'ladylike' sports such as tennis and golf. The International Olympic Committee, under the leadership of Pierre de Coubertin, was initially resistant to women's participation in many Olympic events.\n\nSignificant milestones in gender equality came in the late 20th century. The 1984 Los Angeles Olympics saw a dramatic increase in women's participation, with 1,200 female athletes competing. By the 2000 Sydney Olympics, women's participation had grown to over 3,000 athletes, representing nearly 40% of all competitors. The 2020 Tokyo Olympics marked a historic achievement with women making up close to 49% of all athletes.\n\nThis evolution reflects broader societal changes and persistent advocacy for gender equality in sports. The International Olympic Committee has played an increasingly active role in promoting women's participation, implementing quotas and adding new women's events to achieve greater gender balance."
       },
       "entities": {
-        "Q8752": {
+        "Q5389": {
           "label": "Olympic Games",
           "type": "sports_organization",
           "aliases": [
@@ -207,14 +207,14 @@
             "I.O.C."
           ]
         },
-        "Q282679": {
+        "Q82984": {
           "label": "Pierre de Coubertin",
           "type": "person",
           "aliases": [
             "Baron de Coubertin"
           ]
         },
-        "Q8834": {
+        "Q8088": {
           "label": "1900 Summer Olympics",
           "type": "sports_organization",
           "aliases": [
@@ -222,7 +222,7 @@
             "Paris Olympics 1900"
           ]
         },
-        "Q8531": {
+        "Q8456": {
           "label": "1984 Summer Olympics",
           "type": "sports_organization",
           "aliases": [
@@ -230,7 +230,7 @@
             "Los Angeles Olympics 1984"
           ]
         },
-        "Q8538": {
+        "Q8544": {
           "label": "2000 Summer Olympics",
           "type": "sports_organization",
           "aliases": [
@@ -238,7 +238,7 @@
             "Sydney Olympics"
           ]
         },
-        "Q47716": {
+        "Q181278": {
           "label": "2020 Summer Olympics",
           "type": "sports_organization",
           "aliases": [
