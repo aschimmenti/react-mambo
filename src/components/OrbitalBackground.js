@@ -2,7 +2,8 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const OrbitalBackground = () => {
-  const stories = [
+  // Clickable stories
+  const activeStories = [
     {
       id: "sport-concepts",
       title: "Sports Through the Ages: A Visual Journey",
@@ -23,13 +24,15 @@ const OrbitalBackground = () => {
     }
   ];
 
-  // Non-interactive decorative rings
-  const decorativeRings = [
+  // Non-linked rings (hover only)
+  const decorativeStories = [
     {
+      title: "More than Athletes",
       color: "#F4C300",
       position: { top: "25%", left: "15%" }
     },
     {
+      title: "Duke Kahanamoku",
       color: "#00A651",
       position: { top: "25%", left: "45%" }
     }
@@ -39,7 +42,7 @@ const OrbitalBackground = () => {
     <div className="flex flex-col justify-center items-center h-full text-center">
       <div className="olympic-rings relative z-0 w-[55vw] h-[28vw] max-w-[1600px] max-h-[800px] min-w-[400px] min-h-[220px]">
         {/* Interactive rings with links */}
-        {stories.map((story) => (
+        {activeStories.map((story) => (
           <Link 
             key={story.id}
             to={`/story/${story.id}`}
@@ -55,18 +58,20 @@ const OrbitalBackground = () => {
           </Link>
         ))}
 
-        {/* Non-interactive decorative rings */}
-        {decorativeRings.map((ring, index) => (
+        {/* Non-linked but hoverable rings */}
+        {decorativeStories.map((story, index) => (
           <div
             key={`decorative-${index}`}
-            className="ring absolute w-[22vw] h-[22vw] max-w-[480px] max-h-[480px] min-w-[120px] min-h-[120px] rounded-full border-[6px] flex justify-center items-center"
+            className="ring absolute w-[22vw] h-[22vw] max-w-[480px] max-h-[480px] min-w-[120px] min-h-[120px] rounded-full border-[6px] flex justify-center items-center text-[0px] text-white font-bold transition-all duration-300 ease-in-out hover:brightness-160 hover:scale-130 hover:text-[2vw]"
             style={{
-              borderColor: ring.color,
-              top: ring.position.top,
-              left: ring.position.left,
-              cursor: 'default'
+              '--ring-color': story.color,
+              borderColor: story.color,
+              top: story.position.top,
+              left: story.position.left
             }}
-          />
+          >
+            <span className="font-lora">{story.title} (TBA)</span>
+          </div>
         ))}
       </div>
 

@@ -20,14 +20,25 @@ const SportConceptsVisualization = ({ data }) => {
     const cleanData = {};
     Object.entries(artMetadataEuro || {}).forEach(([id, artwork]) => {
       if (artwork?.title) {
+        // Validate and clean image URL
+        let cleanedImage = artwork.image;
+        if (cleanedImage) {
+          // Ensure the URL is properly formatted
+          try {
+            cleanedImage = new URL(cleanedImage).toString();
+          } catch (e) {
+            console.error(`Invalid image URL for artwork ${id}:`, cleanedImage);
+            cleanedImage = null;
+          }
+        }
+  
         cleanData[id] = {
           ...artwork,
-          title: [artwork.title], // Wrap in array to match other sources
-          image: artwork.image,
+          title: [artwork.title],
+          image: cleanedImage,
           description: artwork.description,
-          subjects: {}, // Will be populated from concepts
+          subjects: {},
           source: 'europeana',
-          // Additional Europeana-specific fields
           country: artwork.country,
           creator: artwork.creator,
           language: artwork.language,
@@ -234,9 +245,12 @@ const SportConceptsVisualization = ({ data }) => {
       cleanWikiArtworkData, cleanRijksArtworkData, cleanEuroArtworkData, 
       allArtworkData, dataSource]);
 
-  const shouldShowImage = (artwork) => {
-    return artwork.source === 'wikidata' && artwork.image;
-  };
+      const shouldShowImage = (artwork) => {
+        return (
+          (artwork.source === 'wikidata' && artwork.image) || 
+          (artwork.source === 'europeana' && artwork.image)
+        );
+      };
 
   return (
     <div className="space-y-6">
@@ -335,17 +349,18 @@ const SportConceptsVisualization = ({ data }) => {
           <div key={index} className="bg-white rounded-lg shadow overflow-hidden">
             {shouldShowImage(artwork) && (
               <div className="relative">
-                <div className="h-48">
-                  <img
-                    src={artwork.image || "/api/placeholder/400/300"}
-                    alt={artwork.title[0]}
-                    className="w-full h-full object-cover"
-                    onError={(e) => {
-                      e.target.src = "/api/placeholder/400/300";
-                    }}
-                  />
-                </div>
-              </div>
+  <div className="h-48">
+    <img
+      src={artwork.image || "/api/placeholder/400/300"}
+      alt={artwork.title[0]}
+      className="w-full h-full object-cover"
+      onError={(e) => {
+        console.error(`Failed to load image: ${artwork.image}`);
+        e.target.src = "/api/placeholder/400/300";
+      }}
+    />
+  </div>
+</div>
             )}
             <div className="p-4">
               <span className="absolute top-2 right-2 px-2 py-1 bg-black bg-opacity-50 text-white rounded text-sm">
@@ -461,18 +476,19 @@ const SportConceptsVisualization = ({ data }) => {
               </div>
 
                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                {shouldShowImage(selectedArtwork) && (
-                  <div>
-                    <img
-                      src={selectedArtwork.image || "/api/placeholder/400/300"}
-                      alt={selectedArtwork.title[0]}
-                      className="w-full h-64 object-cover rounded-lg mb-4"
-                      onError={(e) => {
-                        e.target.src = "/api/placeholder/400/300";
-                      }}
-                    />
-                  </div>
-                )}
+               {(shouldShowImage(selectedArtwork)) && (
+  <div>
+    <img
+      src={selectedArtwork.image || "/api/placeholder/400/300"}
+      alt={selectedArtwork.title[0]}
+      className="w-full h-64 object-cover rounded-lg mb-4"
+      onError={(e) => {
+        console.error(`Failed to load image: ${selectedArtwork.image}`);
+        e.target.src = "/api/placeholder/400/300";
+      }}
+    />
+  </div>
+)}
                  <div className="space-y-4">
                   {/* Europeana-specific modal content */}
                   {selectedArtwork.source === 'europeana' && (
