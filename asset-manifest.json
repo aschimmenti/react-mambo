@@ -1,15 +1,27 @@
 {
   "files": {
-    "main.css": "/react-mambo/static/css/main.8fa7bd20.css",
-    "main.js": "/react-mambo/static/js/main.0e582637.js",
+    "main.css": "/react-mambo/static/css/main.56071ff9.css",
+    "main.js": "/react-mambo/static/js/main.745bf488.js",
     "static/js/453.99177047.chunk.js": "/react-mambo/static/js/453.99177047.chunk.js",
+    "static/media/WordcloudNewspapersMan.png": "/react-mambo/static/media/WordcloudNewspapersMan.ab7075fed3cffab87b77.png",
+    "static/media/WordCloudNewspaperFannyBlankersKkoen.png": "/react-mambo/static/media/WordCloudNewspaperFannyBlankersKkoen.e283c03a94f9f5fac981.png",
+    "static/media/WordCloudNewspapersZwart.png": "/react-mambo/static/media/WordCloudNewspapersZwart.535c364ac6290989c367.png",
+    "static/media/WordcloudNewspaperVrouw.png": "/react-mambo/static/media/WordcloudNewspaperVrouw.9ef97194e7dea0789335.png",
+    "static/media/WordcloudNewspapersWit.png": "/react-mambo/static/media/WordcloudNewspapersWit.3c247673bc2292f93d17.png",
+    "static/media/WordcloudNewspapersKahanamokku.png": "/react-mambo/static/media/WordcloudNewspapersKahanamokku.f8a0309eafbf77d735be.png",
+    "static/media/adjs.png": "/react-mambo/static/media/adjs.85e0e3bcfc5c46cd8b98.png",
+    "static/media/edwards.png": "/react-mambo/static/media/edwards.ae9e4363571221c6ddc9.png",
+    "static/media/carlos.png": "/react-mambo/static/media/carlos.55b2cb48e8d41ec80177.png",
+    "static/media/smith.png": "/react-mambo/static/media/smith.30a461baeff3c1b702cf.png",
+    "static/media/paralympic_athlete_entries.png": "/react-mambo/static/media/paralympic_athlete_entries.e55d8ab157c3c4d5da08.png",
+    "static/media/Comparison_athlete_entries.png": "/react-mambo/static/media/Comparison_athlete_entries.7965d021cb7cf78231ed.png",
     "index.html": "/react-mambo/index.html",
-    "main.8fa7bd20.css.map": "/react-mambo/static/css/main.8fa7bd20.css.map",
-    "main.0e582637.js.map": "/react-mambo/static/js/main.0e582637.js.map",
+    "main.56071ff9.css.map": "/react-mambo/static/css/main.56071ff9.css.map",
+    "main.745bf488.js.map": "/react-mambo/static/js/main.745bf488.js.map",
     "453.99177047.chunk.js.map": "/react-mambo/static/js/453.99177047.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8fa7bd20.css",
-    "static/js/main.0e582637.js"
+    "static/css/main.56071ff9.css",
+    "static/js/main.745bf488.js"
   ]
 }
