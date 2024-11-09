@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/react-mambo/static/css/main.9c647e38.css",
-    "main.js": "/react-mambo/static/js/main.dc1c19e4.js",
+    "main.css": "/react-mambo/static/css/main.8fa7bd20.css",
+    "main.js": "/react-mambo/static/js/main.0e582637.js",
     "static/js/453.99177047.chunk.js": "/react-mambo/static/js/453.99177047.chunk.js",
     "index.html": "/react-mambo/index.html",
-    "main.9c647e38.css.map": "/react-mambo/static/css/main.9c647e38.css.map",
-    "main.dc1c19e4.js.map": "/react-mambo/static/js/main.dc1c19e4.js.map",
+    "main.8fa7bd20.css.map": "/react-mambo/static/css/main.8fa7bd20.css.map",
+    "main.0e582637.js.map": "/react-mambo/static/js/main.0e582637.js.map",
     "453.99177047.chunk.js.map": "/react-mambo/static/js/453.99177047.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9c647e38.css",
-    "static/js/main.dc1c19e4.js"
+    "static/css/main.8fa7bd20.css",
+    "static/js/main.0e582637.js"
   ]
 }
