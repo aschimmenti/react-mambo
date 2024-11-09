@@ -16,13 +16,13 @@ const WordClouds = () => {
   const wordCloudData = [
     {
       image: paralympicImage,
-     title: 'Female-Focused Sports Coverage in Historical Dutch Newspapers',
-      description: 'In sports coverage, female athletes are mostly describes through imagery, relationships and getting chosen.',
+     title: 'Top 10 Languages of Wikipedia Entries',
+      description: 'English is largerly the most represented language ',
     },
     {
       image: totalParalympicRepresentation,
       title:"Difference in the quantities of entries for Olympic Athletes and Paralympic Athletes",
-      description: "..."
+      description: "Paralympic athletes are largerly under represented in Wikipedia."
     },
     {
       image: womanNewspaperImage,
