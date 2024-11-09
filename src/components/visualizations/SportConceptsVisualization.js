@@ -48,26 +48,26 @@ const SportConceptsVisualization = ({ data }) => {
         const created = artwork.created?.find(c => c.endsWith('@en')) || artwork.created?.[0];
         const isPartOf = artwork.isPartOf?.find(p => p.endsWith('@en')) || artwork.isPartOf?.[0];
         
-        // Clean dimensions from extent
-        const dimensions = artwork.extent?.reduce((acc, dim) => {
-          if (dim.endsWith('@en')) {
-            const cleanDim = dim.split('@')[0].trim();
-            if (cleanDim.includes('height')) acc.height = cleanDim;
-            if (cleanDim.includes('width')) acc.width = cleanDim;
-            if (cleanDim.includes('depth')) acc.depth = cleanDim;
-          }
-          return acc;
-        }, {});
+        // // Clean dimensions from extent
+        // const dimensions = artwork.extent?.reduce((acc, dim) => {
+        //   if (dim.endsWith('@en')) {
+        //     const cleanDim = dim.split('@')[0].trim();
+        //     if (cleanDim.includes('height')) acc.height = cleanDim;
+        //     if (cleanDim.includes('width')) acc.width = cleanDim;
+        //     if (cleanDim.includes('depth')) acc.depth = cleanDim;
+        //   }
+        //   return acc;
+        // }, {});
 
         // Clean subjects
-        const subjects = (artwork.subject || [])
-          .map(s => {
-            if (s.startsWith('<')) {
-              return s.split('>')[0].split('/').pop();
-            }
-            return s.split('@')[0];
-          })
-          .filter(s => !s.match(/^\d/));
+        // const subjects = (artwork.subject || [])
+        //   .map(s => {
+        //     if (s.startsWith('<')) {
+        //       return s.split('>')[0].split('/').pop();
+        //     }
+        //     return s.split('@')[0];
+        //   })
+        //   .filter(s => !s.match(/^\d/));
 
           cleanData[id] = {
             ...artwork,
