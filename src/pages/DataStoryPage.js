@@ -12,6 +12,11 @@ const DataStoryPage = () => {
   
   // Find the story based on URL parameter
   const story = storyKG.stories.find(s => s.storyId === id) || storyKG.stories[0];
+  
+  // Debug logs
+  console.log('Current story ID:', id);
+  console.log('Found story:', story);
+  console.log('Story visualizations:', story.content.visualizations);
 
   const processTextToComponents = (text, entities) => {
     // Create a map of all possible entity mentions to their IDs
@@ -141,9 +146,10 @@ const DataStoryPage = () => {
           </div>
           
           {/* Add visualizations if they exist */}
-          {story.visualizations?.map((viz, index) => (
-            <VisualizationWrapper key={index} visualization={viz} />
-          ))}
+          {story.content.visualizations?.map((viz, index) => {
+            console.log('Rendering visualization:', viz);
+            return <VisualizationWrapper key={index} visualization={viz} />;
+          })}
           
           {/* News articles section */}
           {story['news-articles'] && (
@@ -154,7 +160,7 @@ const DataStoryPage = () => {
             />
           )}
         </div>
-        
+
         {/* Info card sidebar */}
         <div className="lg:col-span-4">
           <div className="sticky top-8">

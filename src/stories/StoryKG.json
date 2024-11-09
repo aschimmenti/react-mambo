@@ -1,6 +1,22 @@
 {
   "stories": [
     {
+      "storyId": "sport-concepts",
+      "title": "Sports Through the Ages: A Visual Journey",
+      "content": {
+        "mainText": "Explore how different sports and physical activities have been captured in historical artworks. This interactive visualization allows you to discover the rich history of sporting activities through artistic representations across different time periods. Select from various sporting concepts to see how they were depicted by artists throughout history.",
+        "visualizations": [{
+          "type": "SportConceptsVisualization",
+          "title": "Sports in Historical Artworks",
+          "data": {
+            "artMetadata": "art_meta_wikidata.json",
+            "conceptData": "concept_wikidata_artworks.json"
+          }
+        }]
+      },
+      "entities": {}
+    },
+    {
       "storyId": "Q1890705",
       "title": "1968 Olympics Black Power salute",
       "content": {
