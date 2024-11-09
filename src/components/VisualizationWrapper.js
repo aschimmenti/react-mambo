@@ -1,6 +1,7 @@
 import React from 'react';
 import OlympicRaceChart from './visualizations/OlympicRaceChart';
 import SportConceptsVisualization from './visualizations/SportConceptsVisualization';
+import WordClouds from './visualizations/WordClouds';
 import wikiData from '../data/art_meta_wikidata.json';
 import wikiConceptData from '../data/concept_wikidata_artworks.json';
 import rijksData from '../data/art_meta_rijks.json';
@@ -8,9 +9,8 @@ import rijksConceptData from '../data/concept_art_rijks.json';
 import euroData from '../data/art_meta_euro.json';
 import euroConceptData from '../data/concept_art_euro.json';
 
-
-const VisualizationWrapper = ({ visualization }) => {
-  console.log('VisualizationWrapper received:', visualization);
+const VisualizationWrapper = ({ visualization, storyId }) => {
+  console.log('VisualizationWrapper received:', visualization, 'for story:', storyId);
 
   const renderVisualization = () => {
     switch (visualization?.type) {
@@ -26,22 +26,26 @@ const VisualizationWrapper = ({ visualization }) => {
         );
 
       case 'SportConceptsVisualization':
-        console.log('Rendering SportConceptsVisualization');
+        if (storyId !== 'sport-concepts') return null;
         return (
           <div className="bg-white p-8 border-l-4 border-olympic-blue mt-8">
             <h2 className="text-2xl font-light mb-6">{visualization.title}</h2>
             <SportConceptsVisualization
-            data={{
-              artMetadataWiki: wikiData,
-              conceptDataWiki: wikiConceptData,
-              artMetadataRijks: rijksData,
-              conceptDataRijks: rijksConceptData,
-              artMetadataEuro: euroData,
-              conceptDataEuro: euroConceptData
-            }}
-          />
+              data={{
+                artMetadataWiki: wikiData,
+                conceptDataWiki: wikiConceptData,
+                artMetadataRijks: rijksData,
+                conceptDataRijks: rijksConceptData,
+                artMetadataEuro: euroData,
+                conceptDataEuro: euroConceptData
+              }}
+            />
           </div>
         );
+
+      case 'WordClouds':
+        if (storyId !== 'Q8752') return null;
+        return <WordClouds />;
 
       default:
         console.log('No matching visualization type found');

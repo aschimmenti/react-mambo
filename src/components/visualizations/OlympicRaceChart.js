@@ -202,9 +202,6 @@ const OlympicRaceChart = ({ dataSource }) => {
 
   return (
     <div className="w-full bg-white p-4">
-      <h1 className="text-2xl font-light mb-6">
-        Evolution of Gender Distribution in the Olympics (1896-2024)
-      </h1>
       <div id="chartdiv" style={{ width: "100%", height: "400px" }}></div>
     </div>
   );

@@ -1,0 +1,1107 @@
+[
+  {
+    "subject": {
+      "text": "Black Power",
+      "label": "Black power",
+      "uri": "https://www.wikidata.org/wiki/Q880483"
+    },
+    "predicate": "country",
+    "object": {
+      "text": "American",
+      "label": "United States",
+      "uri": "https://www.wikidata.org/wiki/Q30"
+    }
+  },
+  {
+    "subject": {
+      "text": "Avery Brundage",
+      "label": "Avery Brundage",
+      "uri": "https://www.wikidata.org/wiki/Q155928"
+    },
+    "predicate": "country",
+    "object": {
+      "text": "American",
+      "label": "United States",
+      "uri": "https://www.wikidata.org/wiki/Q30"
+    }
+  },
+  {
+    "subject": {
+      "text": "Avery Brundage",
+      "label": "Avery Brundage",
+      "uri": "https://www.wikidata.org/wiki/Q155928"
+    },
+    "predicate": "country",
+    "object": {
+      "text": "American",
+      "label": "United States",
+      "uri": "https://www.wikidata.org/wiki/Q30"
+    }
+  },
+  {
+    "subject": {
+      "text": "Avery Brundage",
+      "label": "Avery Brundage",
+      "uri": "https://www.wikidata.org/wiki/Q155928"
+    },
+    "predicate": "member of",
+    "object": {
+      "text": "International Olympic Committee",
+      "label": "International Olympic Committee",
+      "uri": "https://www.wikidata.org/wiki/Q40970"
+    }
+  },
+  {
+    "subject": {
+      "text": "Avery Brundage",
+      "label": "Avery Brundage",
+      "uri": "https://www.wikidata.org/wiki/Q155928"
+    },
+    "predicate": "member of",
+    "object": {
+      "text": "IOC",
+      "label": "International Olympic Committee",
+      "uri": "https://www.wikidata.org/wiki/Q40970"
+    }
+  },
+  {
+    "subject": {
+      "text": "Avery Brundage",
+      "label": "Avery Brundage",
+      "uri": "https://www.wikidata.org/wiki/Q155928"
+    },
+    "predicate": "member of",
+    "object": {
+      "text": "IOC",
+      "label": "International Olympic Committee",
+      "uri": "https://www.wikidata.org/wiki/Q40970"
+    }
+  },
+  {
+    "subject": {
+      "text": "International Olympic Committee",
+      "label": "International Olympic Committee",
+      "uri": "https://www.wikidata.org/wiki/Q40970"
+    },
+    "predicate": "country",
+    "object": {
+      "text": "American",
+      "label": "United States",
+      "uri": "https://www.wikidata.org/wiki/Q30"
+    }
+  },
+  {
+    "subject": {
+      "text": "International Olympic Committee",
+      "label": "International Olympic Committee",
+      "uri": "https://www.wikidata.org/wiki/Q40970"
+    },
+    "predicate": "director / manager",
+    "object": {
+      "text": "Avery Brundage",
+      "label": "Avery Brundage",
+      "uri": "https://www.wikidata.org/wiki/Q155928"
+    }
+  },
+  {
+    "subject": {
+      "text": "1968 Olympics",
+      "label": "1968 Summer Olympics",
+      "uri": "https://www.wikidata.org/wiki/Q8429"
+    },
+    "predicate": "instance of",
+    "object": {
+      "text": "Olympic",
+      "label": "Summer Olympic Games",
+      "uri": "https://www.wikidata.org/wiki/Q159821"
+    }
+  },
+  {
+    "subject": {
+      "text": "Olympics",
+      "label": "1968 Summer Olympics",
+      "uri": "https://www.wikidata.org/wiki/Q8429"
+    },
+    "predicate": "country",
+    "object": {
+      "text": "American",
+      "label": "United States",
+      "uri": "https://www.wikidata.org/wiki/Q30"
+    }
+  },
+  {
+    "subject": {
+      "text": "Olympics",
+      "label": "1968 Summer Olympics",
+      "uri": "https://www.wikidata.org/wiki/Q8429"
+    },
+    "predicate": "instance of",
+    "object": {
+      "text": "Olympic",
+      "label": "Summer Olympic Games",
+      "uri": "https://www.wikidata.org/wiki/Q159821"
+    }
+  },
+  {
+    "subject": {
+      "text": "Olympics",
+      "label": "1968 Summer Olympics",
+      "uri": "https://www.wikidata.org/wiki/Q8429"
+    },
+    "predicate": "organizer",
+    "object": {
+      "text": "International Olympic Committee",
+      "label": "International Olympic Committee",
+      "uri": "https://www.wikidata.org/wiki/Q40970"
+    }
+  },
+  {
+    "subject": {
+      "text": "Olympics",
+      "label": "1968 Summer Olympics",
+      "uri": "https://www.wikidata.org/wiki/Q8429"
+    },
+    "predicate": "organizer",
+    "object": {
+      "text": "IOC",
+      "label": "International Olympic Committee",
+      "uri": "https://www.wikidata.org/wiki/Q40970"
+    }
+  },
+  {
+    "subject": {
+      "text": "Washington",
+      "label": "Washington, D.C.",
+      "uri": "https://www.wikidata.org/wiki/Q61"
+    },
+    "predicate": "country",
+    "object": {
+      "text": "American",
+      "label": "United States",
+      "uri": "https://www.wikidata.org/wiki/Q30"
+    }
+  },
+  {
+    "subject": {
+      "text": "Olympic",
+      "label": "Summer Olympic Games",
+      "uri": "https://www.wikidata.org/wiki/Q159821"
+    },
+    "predicate": "organizer",
+    "object": {
+      "text": "IOC",
+      "label": "International Olympic Committee",
+      "uri": "https://www.wikidata.org/wiki/Q40970"
+    }
+  },
+  {
+    "subject": {
+      "text": "Tommie Smith",
+      "label": "Tommie Smith",
+      "uri": "https://www.wikidata.org/wiki/Q52656"
+    },
+    "predicate": "significant person",
+    "object": {
+      "text": "John Carlos",
+      "label": "John Carlos",
+      "uri": "https://www.wikidata.org/wiki/Q370729"
+    }
+  },
+  {
+    "subject": {
+      "text": "Brundage",
+      "label": "Dave Brundage",
+      "uri": "https://www.wikidata.org/wiki/Q5228431"
+    },
+    "predicate": "member of",
+    "object": {
+      "text": "IOC",
+      "label": "International Olympic Committee",
+      "uri": "https://www.wikidata.org/wiki/Q40970"
+    }
+  },
+  {
+    "subject": {
+      "text": "Brundage's",
+      "label": "Dave Brundage",
+      "uri": "https://www.wikidata.org/wiki/Q5228431"
+    },
+    "predicate": "member of",
+    "object": {
+      "text": "IOC",
+      "label": "International Olympic Committee",
+      "uri": "https://www.wikidata.org/wiki/Q40970"
+    }
+  },
+  {
+    "subject": {
+      "text": "Black Power",
+      "label": "Black power movement",
+      "uri": "https://www.wikidata.org/wiki/Q880483"
+    },
+    "predicate": "inspired by",
+    "object": {
+      "text": "Islam",
+      "label": "Nation of Islam",
+      "uri": "https://www.wikidata.org/wiki/Q220222"
+    }
+  },
+  {
+    "subject": {
+      "text": "assassination",
+      "label": "Assassination of Martin Luther King Jr.",
+      "uri": "https://www.wikidata.org/wiki/Q757963"
+    },
+    "predicate": "has goal",
+    "object": {
+      "text": "Malcolm Little",
+      "label": "Malcolm X",
+      "uri": "https://www.wikidata.org/wiki/Q43303"
+    }
+  },
+  {
+    "subject": {
+      "text": "assassination",
+      "label": "Assassination of Martin Luther King Jr.",
+      "uri": "https://www.wikidata.org/wiki/Q757963"
+    },
+    "predicate": "has goal",
+    "object": {
+      "text": "Malcolm X",
+      "label": "Malcolm X",
+      "uri": "https://www.wikidata.org/wiki/Q43303"
+    }
+  },
+  {
+    "subject": {
+      "text": "assassination",
+      "label": "Assassination of Martin Luther King Jr.",
+      "uri": "https://www.wikidata.org/wiki/Q757963"
+    },
+    "predicate": "victim(s)",
+    "object": {
+      "text": "Malcolm Little",
+      "label": "Malcolm X",
+      "uri": "https://www.wikidata.org/wiki/Q43303"
+    }
+  },
+  {
+    "subject": {
+      "text": "assassination",
+      "label": "Assassination of Martin Luther King Jr.",
+      "uri": "https://www.wikidata.org/wiki/Q757963"
+    },
+    "predicate": "victim(s)",
+    "object": {
+      "text": "Malcolm X",
+      "label": "Malcolm X",
+      "uri": "https://www.wikidata.org/wiki/Q43303"
+    }
+  },
+  {
+    "subject": {
+      "text": "Malcolm Little",
+      "label": "Malcolm X",
+      "uri": "https://www.wikidata.org/wiki/Q43303"
+    },
+    "predicate": "religion or worldview",
+    "object": {
+      "text": "Nation of Islam",
+      "label": "Nation of Islam",
+      "uri": "https://www.wikidata.org/wiki/Q220222"
+    }
+  },
+  {
+    "subject": {
+      "text": "Malcolm Little",
+      "label": "Malcolm X",
+      "uri": "https://www.wikidata.org/wiki/Q43303"
+    },
+    "predicate": "religion or worldview",
+    "object": {
+      "text": "Islam",
+      "label": "Nation of Islam",
+      "uri": "https://www.wikidata.org/wiki/Q220222"
+    }
+  },
+  {
+    "subject": {
+      "text": "Malcolm Little",
+      "label": "Malcolm X",
+      "uri": "https://www.wikidata.org/wiki/Q43303"
+    },
+    "predicate": "significant event",
+    "object": {
+      "text": "assassination",
+      "label": "Assassination of Martin Luther King Jr.",
+      "uri": "https://www.wikidata.org/wiki/Q757963"
+    }
+  },
+  {
+    "subject": {
+      "text": "Malcolm X",
+      "label": "Malcolm X",
+      "uri": "https://www.wikidata.org/wiki/Q43303"
+    },
+    "predicate": "religion or worldview",
+    "object": {
+      "text": "Nation of Islam",
+      "label": "Nation of Islam",
+      "uri": "https://www.wikidata.org/wiki/Q220222"
+    }
+  },
+  {
+    "subject": {
+      "text": "Malcolm X",
+      "label": "Malcolm X",
+      "uri": "https://www.wikidata.org/wiki/Q43303"
+    },
+    "predicate": "religion or worldview",
+    "object": {
+      "text": "Islam",
+      "label": "Nation of Islam",
+      "uri": "https://www.wikidata.org/wiki/Q220222"
+    }
+  },
+  {
+    "subject": {
+      "text": "Nation of Islam",
+      "label": "Nation of Islam",
+      "uri": "https://www.wikidata.org/wiki/Q220222"
+    },
+    "predicate": "inspired by",
+    "object": {
+      "text": "Islam",
+      "label": "Nation of Islam",
+      "uri": "https://www.wikidata.org/wiki/Q220222"
+    }
+  },
+  {
+    "subject": {
+      "text": "American tennis champion Arthur Ashe",
+      "label": "Arthur Ashe",
+      "uri": "https://www.wikidata.org/wiki/Q53325"
+    },
+    "predicate": "country",
+    "object": {
+      "text": "America",
+      "label": "United States",
+      "uri": "https://www.wikidata.org/wiki/Q30"
+    }
+  },
+  {
+    "subject": {
+      "text": "Arthur Ashe",
+      "label": "Arthur Ashe",
+      "uri": "https://www.wikidata.org/wiki/Q53325"
+    },
+    "predicate": "country",
+    "object": {
+      "text": "American",
+      "label": "United States",
+      "uri": "https://www.wikidata.org/wiki/Q30"
+    }
+  },
+  {
+    "subject": {
+      "text": "Arthur Ashe",
+      "label": "Arthur Ashe",
+      "uri": "https://www.wikidata.org/wiki/Q53325"
+    },
+    "predicate": "sport",
+    "object": {
+      "text": "tennis",
+      "label": "Tennis",
+      "uri": "https://www.wikidata.org/wiki/Q847"
+    }
+  },
+  {
+    "subject": {
+      "text": "Tom Okker",
+      "label": "Tom Okker",
+      "uri": "https://www.wikidata.org/wiki/Q455411"
+    },
+    "predicate": "country",
+    "object": {
+      "text": "American",
+      "label": "United States",
+      "uri": "https://www.wikidata.org/wiki/Q30"
+    }
+  },
+  {
+    "subject": {
+      "text": "Tom Okker",
+      "label": "Tom Okker",
+      "uri": "https://www.wikidata.org/wiki/Q455411"
+    },
+    "predicate": "sport",
+    "object": {
+      "text": "tennis",
+      "label": "Tennis",
+      "uri": "https://www.wikidata.org/wiki/Q847"
+    }
+  },
+  {
+    "subject": {
+      "text": "Tom Okker",
+      "label": "Tom Okker",
+      "uri": "https://www.wikidata.org/wiki/Q455411"
+    },
+    "predicate": "sport",
+    "object": {
+      "text": "tennis",
+      "label": "Tennis",
+      "uri": "https://www.wikidata.org/wiki/Q847"
+    }
+  },
+  {
+    "subject": {
+      "text": "Wimbledon",
+      "label": "Wimbledon Championships",
+      "uri": "https://www.wikidata.org/wiki/Q41520"
+    },
+    "predicate": "sport",
+    "object": {
+      "text": "tennis",
+      "label": "Tennis",
+      "uri": "https://www.wikidata.org/wiki/Q847"
+    }
+  },
+  {
+    "subject": {
+      "text": "Forest Hills",
+      "label": "Forest Hills, Queens",
+      "uri": "https://www.wikidata.org/wiki/Q1202211"
+    },
+    "predicate": "country",
+    "object": {
+      "text": "America",
+      "label": "United States",
+      "uri": "https://www.wikidata.org/wiki/Q30"
+    }
+  },
+  {
+    "subject": {
+      "text": "Forest Hills",
+      "label": "Forest Hills, Queens",
+      "uri": "https://www.wikidata.org/wiki/Q1202211"
+    },
+    "predicate": "country",
+    "object": {
+      "text": "American",
+      "label": "United States",
+      "uri": "https://www.wikidata.org/wiki/Q30"
+    }
+  },
+  {
+    "subject": {
+      "text": "Forest Hills",
+      "label": "Forest Hills, Queens",
+      "uri": "https://www.wikidata.org/wiki/Q1202211"
+    },
+    "predicate": "country",
+    "object": {
+      "text": "American",
+      "label": "United States",
+      "uri": "https://www.wikidata.org/wiki/Q30"
+    }
+  },
+  {
+    "subject": {
+      "text": "Forest Hills",
+      "label": "Forest Hills, Queens",
+      "uri": "https://www.wikidata.org/wiki/Q1202211"
+    },
+    "predicate": "sport",
+    "object": {
+      "text": "tennis",
+      "label": "Tennis",
+      "uri": "https://www.wikidata.org/wiki/Q847"
+    }
+  },
+  {
+    "subject": {
+      "text": "Forest Hills",
+      "label": "Forest Hills, Queens",
+      "uri": "https://www.wikidata.org/wiki/Q1202211"
+    },
+    "predicate": "sport",
+    "object": {
+      "text": "tennis",
+      "label": "Tennis",
+      "uri": "https://www.wikidata.org/wiki/Q847"
+    }
+  },
+  {
+    "subject": {
+      "text": "Arthur Ashe",
+      "label": "Arthur Ashe",
+      "uri": "https://www.wikidata.org/wiki/Q53325"
+    },
+    "predicate": "country",
+    "object": {
+      "text": "American",
+      "label": "United States",
+      "uri": "https://www.wikidata.org/wiki/Q30"
+    }
+  },
+  {
+    "subject": {
+      "text": "Olympic",
+      "label": "Summer Olympic Games",
+      "uri": "https://www.wikidata.org/wiki/Q159821"
+    },
+    "predicate": "instance of",
+    "object": {
+      "text": "Olympic",
+      "label": "Summer Olympic Games",
+      "uri": "https://www.wikidata.org/wiki/Q159821"
+    }
+  },
+  {
+    "subject": {
+      "text": "former athlete",
+      "label": "Harry Edwards (sociologist)",
+      "uri": "https://www.wikidata.org/wiki/Q5668611"
+    },
+    "predicate": "country",
+    "object": {
+      "text": "America",
+      "label": "United States",
+      "uri": "https://www.wikidata.org/wiki/Q30"
+    }
+  },
+  {
+    "subject": {
+      "text": "America",
+      "label": "United States",
+      "uri": "https://www.wikidata.org/wiki/Q30"
+    },
+    "predicate": "diplomatic relation",
+    "object": {
+      "text": "Mexico",
+      "label": "Mexico",
+      "uri": "https://www.wikidata.org/wiki/Q96"
+    }
+  },
+  {
+    "subject": {
+      "text": "America",
+      "label": "United States",
+      "uri": "https://www.wikidata.org/wiki/Q30"
+    },
+    "predicate": "diplomatic relation",
+    "object": {
+      "text": "Mexico",
+      "label": "Mexico",
+      "uri": "https://www.wikidata.org/wiki/Q96"
+    }
+  },
+  {
+    "subject": {
+      "text": "Mexico",
+      "label": "Mexico",
+      "uri": "https://www.wikidata.org/wiki/Q96"
+    },
+    "predicate": "diplomatic relation",
+    "object": {
+      "text": "America",
+      "label": "United States",
+      "uri": "https://www.wikidata.org/wiki/Q30"
+    }
+  },
+  {
+    "subject": {
+      "text": "Tommie Smith",
+      "label": "Tommie Smith",
+      "uri": "https://www.wikidata.org/wiki/Q52656"
+    },
+    "predicate": "country",
+    "object": {
+      "text": "America",
+      "label": "United States",
+      "uri": "https://www.wikidata.org/wiki/Q30"
+    }
+  },
+  {
+    "subject": {
+      "text": "Tommie Smith",
+      "label": "Tommie Smith",
+      "uri": "https://www.wikidata.org/wiki/Q52656"
+    },
+    "predicate": "country",
+    "object": {
+      "text": "American",
+      "label": "United States",
+      "uri": "https://www.wikidata.org/wiki/Q30"
+    }
+  },
+  {
+    "subject": {
+      "text": "Tommie Smith",
+      "label": "Tommie Smith",
+      "uri": "https://www.wikidata.org/wiki/Q52656"
+    },
+    "predicate": "educated at",
+    "object": {
+      "text": "San Jos\u00e9 State University",
+      "label": "San Jose State University",
+      "uri": "https://www.wikidata.org/wiki/Q498526"
+    }
+  },
+  {
+    "subject": {
+      "text": "John Carlos",
+      "label": null,
+      "uri": "https://www.wikidata.org/wiki/Q37129"
+    },
+    "predicate": "country",
+    "object": {
+      "text": "America",
+      "label": "United States",
+      "uri": "https://www.wikidata.org/wiki/Q30"
+    }
+  },
+  {
+    "subject": {
+      "text": "John Carlos",
+      "label": "John Carlos",
+      "uri": "https://www.wikidata.org/wiki/Q370729"
+    },
+    "predicate": "country",
+    "object": {
+      "text": "American",
+      "label": "United States",
+      "uri": "https://www.wikidata.org/wiki/Q30"
+    }
+  },
+  {
+    "subject": {
+      "text": "John Carlos",
+      "label": "John Carlos",
+      "uri": "https://www.wikidata.org/wiki/Q370729"
+    },
+    "predicate": "educated at",
+    "object": {
+      "text": "San Jos\u00e9 State University",
+      "label": "San Jose State University",
+      "uri": "https://www.wikidata.org/wiki/Q498526"
+    }
+  },
+  {
+    "subject": {
+      "text": "San Jos\u00e9 State University",
+      "label": "San Jose State University",
+      "uri": "https://www.wikidata.org/wiki/Q498526"
+    },
+    "predicate": "country",
+    "object": {
+      "text": "American",
+      "label": "United States",
+      "uri": "https://www.wikidata.org/wiki/Q30"
+    }
+  },
+  {
+    "subject": {
+      "text": "Edwards",
+      "label": null,
+      "uri": "https://www.wikidata.org/wiki/Q37129"
+    },
+    "predicate": "country",
+    "object": {
+      "text": "American",
+      "label": "United States",
+      "uri": "https://www.wikidata.org/wiki/Q30"
+    }
+  },
+  {
+    "subject": {
+      "text": "Edwards",
+      "label": null,
+      "uri": "https://www.wikidata.org/wiki/Q37129"
+    },
+    "predicate": "educated at",
+    "object": {
+      "text": "San Jos\u00e9 State University",
+      "label": "San Jose State University",
+      "uri": "https://www.wikidata.org/wiki/Q498526"
+    }
+  },
+  {
+    "subject": {
+      "text": "Edwards",
+      "label": "John Edwards",
+      "uri": "https://www.wikidata.org/wiki/Q217314"
+    },
+    "predicate": "country",
+    "object": {
+      "text": "American",
+      "label": "United States",
+      "uri": "https://www.wikidata.org/wiki/Q30"
+    }
+  },
+  {
+    "subject": {
+      "text": "Edwards",
+      "label": "John Edwards",
+      "uri": "https://www.wikidata.org/wiki/Q217314"
+    },
+    "predicate": "educated at",
+    "object": {
+      "text": "San Jos\u00e9 State University",
+      "label": "San Jose State University",
+      "uri": "https://www.wikidata.org/wiki/Q498526"
+    }
+  },
+  {
+    "subject": {
+      "text": "his",
+      "label": null,
+      "uri": "https://www.wikidata.org/wiki/Q37129"
+    },
+    "predicate": "country",
+    "object": {
+      "text": "American",
+      "label": "United States",
+      "uri": "https://www.wikidata.org/wiki/Q30"
+    }
+  },
+  {
+    "subject": {
+      "text": "his",
+      "label": null,
+      "uri": "https://www.wikidata.org/wiki/Q37129"
+    },
+    "predicate": "educated at",
+    "object": {
+      "text": "San Jos\u00e9 State University",
+      "label": "San Jose State University",
+      "uri": "https://www.wikidata.org/wiki/Q498526"
+    }
+  },
+  {
+    "subject": {
+      "text": "Tommie Smith",
+      "label": "Tommie Smith",
+      "uri": "https://www.wikidata.org/wiki/Q52656"
+    },
+    "predicate": "country",
+    "object": {
+      "text": "United States",
+      "label": "United States",
+      "uri": "https://www.wikidata.org/wiki/Q30"
+    }
+  },
+  {
+    "subject": {
+      "text": "Tommie Smith",
+      "label": "Tommie Smith",
+      "uri": "https://www.wikidata.org/wiki/Q52656"
+    },
+    "predicate": "educated at",
+    "object": {
+      "text": "San Jos\u00e9 State University",
+      "label": "San Jose State University",
+      "uri": "https://www.wikidata.org/wiki/Q498526"
+    }
+  },
+  {
+    "subject": {
+      "text": "Tommie Smith",
+      "label": "Tommie Smith",
+      "uri": "https://www.wikidata.org/wiki/Q52656"
+    },
+    "predicate": "educated at",
+    "object": {
+      "text": "San Jos\u00e9 State University",
+      "label": "San Jose State University",
+      "uri": "https://www.wikidata.org/wiki/Q498526"
+    }
+  },
+  {
+    "subject": {
+      "text": "He",
+      "label": "Tommie Smith",
+      "uri": "https://www.wikidata.org/wiki/Q52656"
+    },
+    "predicate": "country",
+    "object": {
+      "text": "United States",
+      "label": "United States",
+      "uri": "https://www.wikidata.org/wiki/Q30"
+    }
+  },
+  {
+    "subject": {
+      "text": "Olympics",
+      "label": "Summer Olympic Games",
+      "uri": "https://www.wikidata.org/wiki/Q159821"
+    },
+    "predicate": "country",
+    "object": {
+      "text": "America",
+      "label": "United States",
+      "uri": "https://www.wikidata.org/wiki/Q30"
+    }
+  },
+  {
+    "subject": {
+      "text": "Olympics",
+      "label": "Summer Olympic Games",
+      "uri": "https://www.wikidata.org/wiki/Q159821"
+    },
+    "predicate": "country",
+    "object": {
+      "text": "America",
+      "label": "United States",
+      "uri": "https://www.wikidata.org/wiki/Q30"
+    }
+  },
+  {
+    "subject": {
+      "text": "Olympics",
+      "label": "Summer Olympic Games",
+      "uri": "https://www.wikidata.org/wiki/Q159821"
+    },
+    "predicate": "instance of",
+    "object": {
+      "text": "Olympics",
+      "label": "Summer Olympic Games",
+      "uri": "https://www.wikidata.org/wiki/Q159821"
+    }
+  },
+  {
+    "subject": {
+      "text": "Smith",
+      "label": "Joe Smith Jr.",
+      "uri": "https://www.wikidata.org/wiki/Q24743195"
+    },
+    "predicate": "country",
+    "object": {
+      "text": "Americans",
+      "label": "African Americans",
+      "uri": "https://www.wikidata.org/wiki/Q49085"
+    }
+  },
+  {
+    "subject": {
+      "text": "Black Power",
+      "label": "Black power movement",
+      "uri": "https://www.wikidata.org/wiki/Q880483"
+    },
+    "predicate": "country",
+    "object": {
+      "text": "Americans",
+      "label": "African Americans",
+      "uri": "https://www.wikidata.org/wiki/Q49085"
+    }
+  },
+  {
+    "subject": {
+      "text": "united front",
+      "label": "United front",
+      "uri": "https://www.wikidata.org/wiki/Q835396"
+    },
+    "predicate": "country",
+    "object": {
+      "text": "Americans",
+      "label": "United States",
+      "uri": "https://www.wikidata.org/wiki/Q30"
+    }
+  },
+  {
+    "subject": {
+      "text": "united front",
+      "label": "United front",
+      "uri": "https://www.wikidata.org/wiki/Q835396"
+    },
+    "predicate": "political ideology",
+    "object": {
+      "text": "Black Power movement",
+      "label": "Black power movement",
+      "uri": "https://www.wikidata.org/wiki/Q880483"
+    }
+  },
+  {
+    "subject": {
+      "text": "black athletes",
+      "label": null,
+      "uri": "https://www.wikidata.org/wiki/Q37129"
+    },
+    "predicate": "country",
+    "object": {
+      "text": "Americans",
+      "label": "United States",
+      "uri": "https://www.wikidata.org/wiki/Q30"
+    }
+  },
+  {
+    "subject": {
+      "text": "Arthur Ashe",
+      "label": "Arthur Ashe",
+      "uri": "https://www.wikidata.org/wiki/Q53325"
+    },
+    "predicate": "country",
+    "object": {
+      "text": "American",
+      "label": "African Americans",
+      "uri": "https://www.wikidata.org/wiki/Q49085"
+    }
+  },
+  {
+    "subject": {
+      "text": "Arthur Ashe",
+      "label": "Arthur Ashe",
+      "uri": "https://www.wikidata.org/wiki/Q53325"
+    },
+    "predicate": "country",
+    "object": {
+      "text": "American",
+      "label": "American Tennis Association",
+      "uri": "https://www.wikidata.org/wiki/Q4745230"
+    }
+  },
+  {
+    "subject": {
+      "text": "he",
+      "label": "Arthur Ashe",
+      "uri": "https://www.wikidata.org/wiki/Q53325"
+    },
+    "predicate": "country",
+    "object": {
+      "text": "American",
+      "label": "African Americans",
+      "uri": "https://www.wikidata.org/wiki/Q49085"
+    }
+  },
+  {
+    "subject": {
+      "text": "IOC",
+      "label": "International Olympic Committee",
+      "uri": "https://www.wikidata.org/wiki/Q40970"
+    },
+    "predicate": "country",
+    "object": {
+      "text": "American",
+      "label": "African Americans",
+      "uri": "https://www.wikidata.org/wiki/Q49085"
+    }
+  },
+  {
+    "subject": {
+      "text": "Smith",
+      "label": "Mike Tyson",
+      "uri": "https://www.wikidata.org/wiki/Q79031"
+    },
+    "predicate": "country",
+    "object": {
+      "text": "American",
+      "label": "African Americans",
+      "uri": "https://www.wikidata.org/wiki/Q49085"
+    }
+  },
+  {
+    "subject": {
+      "text": "Smith",
+      "label": "Tyson Gay",
+      "uri": "https://www.wikidata.org/wiki/Q200683"
+    },
+    "predicate": "country",
+    "object": {
+      "text": "American",
+      "label": "United States",
+      "uri": "https://www.wikidata.org/wiki/Q30"
+    }
+  },
+  {
+    "subject": {
+      "text": "Carlos",
+      "label": "Carlos Guillermo Smith",
+      "uri": "https://www.wikidata.org/wiki/Q27916074"
+    },
+    "predicate": "country",
+    "object": {
+      "text": "American",
+      "label": "African Americans",
+      "uri": "https://www.wikidata.org/wiki/Q49085"
+    }
+  },
+  {
+    "subject": {
+      "text": "Carlos",
+      "label": "Carlos Guillermo Smith",
+      "uri": "https://www.wikidata.org/wiki/Q27916074"
+    },
+    "predicate": "country",
+    "object": {
+      "text": "American",
+      "label": "United States",
+      "uri": "https://www.wikidata.org/wiki/Q30"
+    }
+  },
+  {
+    "subject": {
+      "text": "IOC",
+      "label": "International Olympic Committee",
+      "uri": "https://www.wikidata.org/wiki/Q40970"
+    },
+    "predicate": "country",
+    "object": {
+      "text": "American",
+      "label": "African Americans",
+      "uri": "https://www.wikidata.org/wiki/Q49085"
+    }
+  },
+  {
+    "subject": {
+      "text": "Ralph Boston",
+      "label": "Ralph Boston",
+      "uri": "https://www.wikidata.org/wiki/Q451509"
+    },
+    "predicate": "country",
+    "object": {
+      "text": "American",
+      "label": "African Americans",
+      "uri": "https://www.wikidata.org/wiki/Q49085"
+    }
+  },
+  {
+    "subject": {
+      "text": "Ralph Boston",
+      "label": "Ralph Boston",
+      "uri": "https://www.wikidata.org/wiki/Q451509"
+    },
+    "predicate": "movement",
+    "object": {
+      "text": "Black Power",
+      "label": "Black power",
+      "uri": "https://www.wikidata.org/wiki/Q880483"
+    }
+  },
+  {
+    "subject": {
+      "text": "himself",
+      "label": "Ralph Boston",
+      "uri": "https://www.wikidata.org/wiki/Q451509"
+    },
+    "predicate": "movement",
+    "object": {
+      "text": "Black Power",
+      "label": "Black power",
+      "uri": "https://www.wikidata.org/wiki/Q880483"
+    }
+  },
+  {
+    "subject": {
+      "text": "himself",
+      "label": "Ralph Boston",
+      "uri": "https://www.wikidata.org/wiki/Q451509"
+    },
+    "predicate": "sport",
+    "object": {
+      "text": "Black Power",
+      "label": "Black power",
+      "uri": "https://www.wikidata.org/wiki/Q880483"
+    }
+  }
+]

@@ -15,7 +15,7 @@ const Navbar = () => {
             to="/" 
             className="text-white text-xl font-semibold no-underline"
           >
-            DataStory
+            LODLYMPICS
           </Link>
 
           {/* Mobile menu button */}
